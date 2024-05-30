@@ -1,7 +1,4 @@
 # Stone: Astro Theme
-
-Stone is a free and open-source Astro theme specially designed for Business, Marketing, SaaS and Startup websites.
-
 ## Key Features:
 
 - **Built with Tailwind CSS & Alpine.js**
