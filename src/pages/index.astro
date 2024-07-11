@@ -8,13 +8,17 @@ import Testimonials from '../components/home/Testimonials.astro';
 import Layout from '../layouts/Layout.astro';
 import Investors from '../components/home/Socialproof.astro';
 import Companies from '../components/home/excompanies.astro';
+import ScrollingLogos from '../components/about/ScrollingLogos.astro';
+import Announcement from '../components/about/Announcement.astro';
 ---
 
 <Layout
   description="Anarchy AI is an open collective of AI safety researchers and developers who decided to rebel against restrictive regulations by giving the world access to AI."
   title="Stone · Premium Astro template"
 >
+  <Announcement />  
   <Hero />
+  <ScrollingLogos />
   <Services />
   <Expertise />
   <About />
