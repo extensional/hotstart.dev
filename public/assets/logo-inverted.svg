@@ -8,10 +8,10 @@
       text {
         fill: #fff;
         font-family: 'Inter', sans-serif;
-        font-size: 100px;
+        font-size: 95px;
         white-space: pre;
       }
     </style>
   </defs>
-  <text x="1.611" y="279.74">HotStart</text>
+  <text x="1.611" y="279.74">HotStartAI</text>
 </svg>
