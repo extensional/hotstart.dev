@@ -10,24 +10,25 @@
       <form action="https://script.google.com/macros/s/AKfycbxgeaR1eImbWfpEpcuL32iJrFBwhl_b36Bf0ZFeHnMusAC7P4ke3Mwg85-RLNtws6Q69w/exec" method="POST" class="mt-3 flex flex-col gap-y-6">
         <!-- Full name input -->
         <div>
-          <label for="full-name" class="sr-only">Full name</label>
+          <label for="fullname" class="sr-only">Full name</label>
           <input
             type="text"
-            name="full-name"
-            id="full-name"
+            name="fullname"
+            id="fullname"
             autocomplete="name"
             class="hover:ring-primary-600 focus:ring-primary-600 dark:hover:ring-primary-400 dark:focus:ring-primary-400 bg-primary-50 dark:bg-primary-950 ring-primary-900/40 dark:ring-primary-200/40 placeholder:text-primary-950/60 dark:placeholder:text-primary-200/60 block w-full appearance-none rounded-md border-0 px-4 py-4 text-base ring-1 transition focus:outline-none focus:ring-2"
             placeholder="Full Name"
           />
         </div>
 
-          <div>
+        <!-- LinkedIn input -->
+        <div>
           <label for="linkedin" class="sr-only">LinkedIn Profile</label>
           <input
             type="text"
             name="linkedin"
-            id="full-name"
-            autocomplete="name"
+            id="linkedin"
+            autocomplete="linkedin"
             class="hover:ring-primary-600 focus:ring-primary-600 dark:hover:ring-primary-400 dark:focus:ring-primary-400 bg-primary-50 dark:bg-primary-950 ring-primary-900/40 dark:ring-primary-200/40 placeholder:text-primary-950/60 dark:placeholder:text-primary-200/60 block w-full appearance-none rounded-md border-0 px-4 py-4 text-base ring-1 transition focus:outline-none focus:ring-2"
             placeholder="LinkedIn Profile"
           />
@@ -53,7 +54,7 @@
             type="text"
             name="company"
             id="company"
-            autocomplete="company"
+            autocomplete="organization"
             class="hover:ring-primary-600 focus:ring-primary-600 dark:hover:ring-primary-400 dark:focus:ring-primary-400 bg-primary-50 dark:bg-primary-950 ring-primary-900/40 dark:ring-primary-200/40 placeholder:text-primary-950/60 dark:placeholder:text-primary-200/60 block w-full appearance-none rounded-md border-0 px-4 py-4 text-base ring-1 transition focus:outline-none focus:ring-2"
             placeholder="Company"
           />
@@ -61,12 +62,12 @@
 
         <!-- Company size input -->
         <div>
-          <label for="companysize" class="sr-only">CompanySize</label>
+          <label for="companysize" class="sr-only">Company Size</label>
           <input
             type="number"
             name="companysize"
             id="companysize"
-            autocomplete="00"
+            autocomplete="off"
             class="hover:ring-primary-600 focus:ring-primary-600 dark:hover:ring-primary-400 dark:focus:ring-primary-400 bg-primary-50 dark:bg-primary-950 ring-primary-900/40 dark:ring-primary-200/40 placeholder:text-primary-950/60 dark:placeholder:text-primary-200/60 block w-full appearance-none rounded-md border-0 px-4 py-4 text-base ring-1 transition focus:outline-none focus:ring-2"
             placeholder="Company Headcount"
           />
