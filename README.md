@@ -1,4 +1,4 @@
-# Stone: Astro Theme
+# HotStart.dev Source Code
 ## Key Features:
 
 - **Built with Tailwind CSS & Alpine.js**
